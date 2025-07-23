@@ -38,7 +38,8 @@ section {
 }
 
 section:hover {
-    transform:translateY(-5px)
+    transform:translateY(-5px);
+    background-color:#F0FAF0;
 }
 
 section h2 {
