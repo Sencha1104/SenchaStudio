@@ -13,16 +13,21 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const sorted = posts.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-  const list = document.createElement('ul');
   sorted.forEach(post => {
-    const li = document.createElement('li');
-    const a = document.createElement('a');
-    a.href = `../${post.path}`;
-    a.textContent = `${post.date} - ${post.title}`;
-    li.appendChild(a);
-    list.appendChild(li);
+    const section = document.createElement('section');
+
+    const link = document.createElement('a');
+    link.href = `../${post.path}`;
+
+    const h2 = document.createElement('h2');
+    h2.textContent = post.title;
+
+    const p = document.createElement('p');
+    p.textContent = `投稿日: ${post.date}`;
+
+    link.appendChild(h2);
+    link.appendChild(p);
+    section.appendChild(link);
+    container.appendChild(section);
   });
-
-  container.appendChild(list);
 });
-
