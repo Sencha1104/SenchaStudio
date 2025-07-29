@@ -1,28 +1,13 @@
 {
   "game": [
     {
-      "title": "ゲーム制作記録#1",
-      "date": "2025-07-27",
-      "path": "posts/game/2025-07-27.html"
-    },
-    {
-      "title": "新作企画メモ",
-      "date": "2025-07-10",
-      "path": "posts/game/2025-07-10.md"
+      "title": "テスト",
+      "date": "2025-07-29",
+      "path": "posts/game/2025-07-29.html"
     }
   ],
   "music": [
-    {
-      "title": "音楽日記：テーマ曲作成",
-      "date": "2025-07-28",
-      "path": "posts/music/2025-07-28.html"
-    }
   ],
   "diary": [
-    {
-      "title": "今日の出来事",
-      "date": "2025-07-01",
-      "path": "posts/diary/2025-07-01.html"
-    }
   ]
 }
