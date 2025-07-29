@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const posts = allPosts[category];
   if (!posts || posts.length === 0) {
-    container.innerHTML = '<p>記事がありません。</p>';
+    container.innerHTML = '<p>おっと、まだ記事がないようです。<br>ごめんね。</p>';
     return;
   }
 
